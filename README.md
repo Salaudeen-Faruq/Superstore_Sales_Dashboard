@@ -232,6 +232,9 @@ Analyzes delivery efficiency across the four available shipping modes, identifyi
 
 <img width="3141" height="1734" alt="image" src="https://github.com/user-attachments/assets/9e1127c9-faab-4117-a9f6-dce3c07fe526" />
 
+## 🔗 Power BI Dashboard Link
+
+Click Link to report
 <iframe title="Superstore Sales Analysis" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNzM2NDgxZjItZDAwYS00ZjE2LWE1ZmUtNjM0Y2EyZGUzZGVlIiwidCI6ImMwOTA5OWE3LWY0MjItNDMyOC04Nzg2LTBlODRmYmNkOTJmNCJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 
