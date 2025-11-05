@@ -238,11 +238,15 @@ Click Link to report:
 <iframe title="Superstore Sales Analysis" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNzM2NDgxZjItZDAwYS00ZjE2LWE1ZmUtNjM0Y2EyZGUzZGVlIiwidCI6ImMwOTA5OWE3LWY0MjItNDMyOC04Nzg2LTBlODRmYmNkOTJmNCJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 ### 📈 Key Insights
-3D Systems Cube Printer, 2nd Generation, Magenta has generated the highest revenue so far.
-Carlifonia is the top-performing state in terms of revenue.
-Consumer segment is the highest revenue generating segment, showing consistent growth.
-Sales always increases during the 4th quater, largely due to holiday shopping trends.
-Office Supplies were the best-selling product categories across all regions.
+.3D Systems Cube Printer, 2nd Generation, Magenta has generated the highest revenue so far.
+
+.Carlifonia is the top-performing state in terms of revenue.
+
+.Consumer segment is the highest revenue generating segment, showing consistent growth.
+
+.Sales always increases during the 4th quater, largely due to holiday shopping trends.
+
+.Office Supplies were the best-selling product categories across all regions.
 
 
 
