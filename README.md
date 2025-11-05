@@ -190,4 +190,23 @@ It helps identify the most valuable customers and highlights how much revenue an
 This visual provides insights into the efficiency of the logistics team by showing how average shipping duration changes across months.  
 It highlights periods of strong performance as well as months with slower delivery times, prompting further investigation into the factors affecting logistics efficiency and consistency.
 
+## 📊 Dashboard Visuals Overview
+
+To ensure the dashboard delivers *actionable insights* and supports *data-driven decisions*, the following key visuals are included:
+
+### 1. Revenue and Profit Breakdown by Category, Subcategory, and Product
+Provides a detailed analysis of financial performance across product hierarchies, helping identify high- and low-performing items.
+
+### 2. Top Revenue-Generating States and Cities
+Highlights the best-performing geographical locations, enabling targeted strategies for regional sales growth.
+
+### 3. Customer Segmentation Sales Performance
+Compares sales trends across the three customer segments to understand purchasing patterns and customer value.
+
+### 4. Sales Trend Over Time
+Reveals seasonal sales patterns and overall purchasing behavior, assisting in forecasting and demand planning.
+
+### 5. Logistics Ship Mode Performance
+Analyzes delivery efficiency across the four available shipping modes, identifying the most preferred options and evaluating performance against SLA (Service Level Agreement) time frames.
+
 
