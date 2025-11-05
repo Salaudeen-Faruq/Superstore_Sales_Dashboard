@@ -175,11 +175,9 @@ IF(
 *California* stands out as the top-performing state in terms of total revenue, generating approximately *$206K*.  
 The visual highlights its consistent strength, showing that it maintained the *#1 position* from the previous year (PY) to the current year (TY) — demonstrating stable performance and strong market dominance.
 
-.Customer performance breakdown
+.👥 Customer Profitability Analysis
 
-<img width="1197" height="639" alt="image" src="https://github.com/user-attachments/assets/d53cffa3-d8c0-4c88-aaa4-6b2f71b3a5b4" />
-
-### 👥 Customer Profitability Analysis  
+<img width="1197" height="639" alt="image" src="https://github.com/user-attachments/assets/d53cffa3-d8c0-4c88-aaa4-6b2f71b3a5b4" />  
 
 This visual provides a breakdown of individual customers’ purchasing strength and the profit each customer contributes.  
 It helps identify the most valuable customers and highlights how much revenue and profit the company generates from each one.
