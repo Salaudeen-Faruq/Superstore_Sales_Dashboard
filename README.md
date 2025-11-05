@@ -106,7 +106,7 @@ Revenue =
 CALCULATE(SUM(SuperStore_Sales[Sales]))
 ```
 
-###🧍‍♂ Top Customer
+🧍‍♂ Top Customer
 ```dax
 Top Customer =
 VAR TopCust =
@@ -123,7 +123,7 @@ VAR TopCust =
 RETURN
     MAXX(TopCust, SuperStore_Sales[Customer Name])
   ```
-  ###📅 Date Table
+  📅 Date Table
   ```dax
   DateTable =
 ADDCOLUMNS(
@@ -138,7 +138,7 @@ ADDCOLUMNS(
     "Quarter No", FORMAT([Date], "Q")
 )
 ```
-###💸 Profit Lost
+💸 Profit Lost
 ```dax
 Profit Lost =
 CALCULATE(
@@ -146,7 +146,7 @@ CALCULATE(
     SuperStore_Sales[Returns] = "1"
 )
 ```
-###⏱ On-Time Threshold
+⏱ On-Time Threshold
 ```dax
 On-Time Threshold =
 IF(
