@@ -164,3 +164,13 @@ IF(
 ```
 )
 <img width="3835" height="2225" alt="Screenshot 2025-11-05 152122" src="https://github.com/user-attachments/assets/5e35c557-39a0-4161-ad5c-250dc8009fb8" />
+<img width="3840" height="2178" alt="image" src="https://github.com/user-attachments/assets/e5804940-ab38-4283-9d06-ae92539e383c" />
+
+### Key Analysis Visual
+
+.Sales by state
+<img width="816" height="591" alt="image" src="https://github.com/user-attachments/assets/fffd05d0-0a08-4301-8a6b-53eee403bb91" />
+*California* stands out as the top-performing state in terms of total revenue, generating approximately *$206K*.  
+The visual highlights its consistent strength, showing that it maintained the *#1 position* from the previous year (PY) to the current year (TY) — demonstrating stable performance and strong market dominance.
+
+
