@@ -98,6 +98,9 @@ Applied all transformations and loaded the cleaned dataset into *Power BI* for f
   - Superstore_Sales[Ship Date] → DateTable[Date] (Inactive)  
 - Kept the schema *denormalized* for simplicity and direct reporting.
 
+<img width="2115" height="1389" alt="image" src="https://github.com/user-attachments/assets/1933225a-f5e5-4513-900a-49b7de11b3b7" />
+
+
 ## 📊 Key DAX Measures  
 
 ### 💰 Revenue  
@@ -208,5 +211,30 @@ Reveals seasonal sales patterns and overall purchasing behavior, assisting in fo
 
 ### 5. Logistics Ship Mode Performance
 Analyzes delivery efficiency across the four available shipping modes, identifying the most preferred options and evaluating performance against SLA (Service Level Agreement) time frames.
+
+## Superstore Sales Insights
+
+<img width="3096" height="1731" alt="image" src="https://github.com/user-attachments/assets/24d18fe5-ca4b-4b82-900b-b72437f10c5f" />
+
+## Categories Performance Insight
+
+<img width="3101" height="1754" alt="Screenshot 2025-11-05 201651" src="https://github.com/user-attachments/assets/1ba81df8-ee7b-4a1c-8e3a-280d2b41fdec" />
+
+## Customer details Overview
+
+<img width="3090" height="1731" alt="image" src="https://github.com/user-attachments/assets/0cd73204-6fd0-4948-bc48-b5767f3dad80" />
+
+## Product Sales Insight
+
+<img width="3102" height="1746" alt="image" src="https://github.com/user-attachments/assets/7a2e2e73-10a1-479d-ab32-8b6bc05c12ca" />
+
+## Logistics Performance Insight
+
+<img width="3141" height="1734" alt="image" src="https://github.com/user-attachments/assets/9e1127c9-faab-4117-a9f6-dce3c07fe526" />
+
+
+
+
+
 
 
