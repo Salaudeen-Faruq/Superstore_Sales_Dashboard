@@ -169,7 +169,9 @@ IF(
 ### Key Analysis Visual
 
 .Sales by state
+
 <img width="816" height="591" alt="image" src="https://github.com/user-attachments/assets/fffd05d0-0a08-4301-8a6b-53eee403bb91" />
+
 *California* stands out as the top-performing state in terms of total revenue, generating approximately *$206K*.  
 The visual highlights its consistent strength, showing that it maintained the *#1 position* from the previous year (PY) to the current year (TY) — demonstrating stable performance and strong market dominance.
 
