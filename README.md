@@ -163,3 +163,4 @@ IF(
     )
 ```
 )
+<img width="3835" height="2225" alt="Screenshot 2025-11-05 152122" src="https://github.com/user-attachments/assets/5e35c557-39a0-4161-ad5c-250dc8009fb8" />
