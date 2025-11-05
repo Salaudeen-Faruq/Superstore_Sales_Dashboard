@@ -182,4 +182,12 @@ The visual highlights its consistent strength, showing that it maintained the *#
 This visual provides a breakdown of individual customers’ purchasing strength and the profit each customer contributes.  
 It helps identify the most valuable customers and highlights how much revenue and profit the company generates from each one.
 
+### 🚚 Average Shipping Duration  
+
+<img width="909" height="651" alt="image" src="https://github.com/user-attachments/assets/2119235d-8c50-4f4f-baa2-c104ee759a97" />
+
+
+This visual provides insights into the efficiency of the logistics team by showing how average shipping duration changes across months.  
+It highlights periods of strong performance as well as months with slower delivery times, prompting further investigation into the factors affecting logistics efficiency and consistency.
+
 
