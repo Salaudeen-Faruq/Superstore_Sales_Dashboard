@@ -75,3 +75,20 @@ Dropped surplus columns (e.g., Ind1, Ind2) not relevant to project objectives.
 Ensured numeric fields (Sales, Profit, Quantity) were in decimal or currency format:  
 ```m
 = Table.TransformColumnTypes(#"Removed Columns", {{"Profit", Currency.Type}, {"Sales", Currency.Type}})
+Converted date fields (Order Date, Ship Date) to locale-specific formats:
+= Table.TransformColumnTypes(#"Added Custom", {{"Order Date", type date}, {"Ship Date", type date}}, "en-GB")
+Step 4: Handle Missing Values
+	•	Checked each column for null values using filters.
+	•	Ensured data completeness in key fields.
+
+Step 5: Load Clean Data
+Applied transformations and loaded clean data into Power BI for modeling and visualization.
+
+⸻
+
+3️⃣ Data Modeling
+	•	Designed an efficient schema optimized for analytical performance.
+	•	Established relationships:
+	•	Superstore_Sales[Order Date] → DateTable[Date] (Active)
+	•	Superstore_Sales[Ship Date] → DateTable[Date] (Inactive)
+	•	Schema kept denormalized for direct and simple reporting.
