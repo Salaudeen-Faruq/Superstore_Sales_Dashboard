@@ -97,3 +97,69 @@ Applied all transformations and loaded the cleaned dataset into *Power BI* for f
   - Superstore_Sales[Order Date] → DateTable[Date] (Active)  
   - Superstore_Sales[Ship Date] → DateTable[Date] (Inactive)  
 - Kept the schema *denormalized* for simplicity and direct reporting.
+
+## 📊 Key DAX Measures  
+
+### 💰 Revenue  
+```dax
+Revenue = 
+CALCULATE(SUM(SuperStore_Sales[Sales]))
+```
+
+###🧍‍♂ Top Customer
+```dax
+Top Customer =
+VAR TopCust =
+    TOPN(
+        1,
+        SUMMARIZE(
+            SuperStore_Sales,
+            SuperStore_Sales[Customer Name],
+            "CustomerRevenue", [Revenue]
+        ),
+        [Revenue],
+        DESC
+    )
+RETURN
+    MAXX(TopCust, SuperStore_Sales[Customer Name])
+  ```
+  ###📅 Date Table
+  ```dax
+  DateTable =
+ADDCOLUMNS(
+    CALENDARAUTO(),
+    "Year", YEAR([Date]),
+    "Month Number", MONTH([Date]),
+    "Month Name", FORMAT([Date], "MMM"),
+    "Quarter", "Q" & FORMAT([Date], "Q"),
+    "Weekday Number", WEEKDAY([Date], 2),  -- 2 means week starts on Monday
+    "Weekday Name", FORMAT([Date], "ddd"),
+    "Start of Month", EOMONTH([Date], -1) + 1,
+    "Quarter No", FORMAT([Date], "Q")
+)
+```
+###💸 Profit Lost
+```dax
+Profit Lost =
+CALCULATE(
+    SUM(SuperStore_Sales[Profit]),
+    SuperStore_Sales[Returns] = "1"
+)
+```
+###⏱ On-Time Threshold
+```dax
+On-Time Threshold =
+IF(
+    SuperStore_Sales[Ship Mode] = "Same Day", 0,
+    IF(
+        SuperStore_Sales[Ship Mode] = "First Class", 3,
+        IF(
+            SuperStore_Sales[Ship Mode] = "Second Class", 5,
+            IF(
+                SuperStore_Sales[Ship Mode] = "Standard Class", 7,
+                BLANK()
+            )
+        )
+    )
+```
+)
